@@ -1,0 +1,813 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Miguel Braz</title>
+  <meta name="title" content="Web Designer | Social Media | Desenv. Front-end">
+
+  <link rel="icon" href="assets/images/icon.png" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preload" as="image" href="./assets/images/hero-banner.png">
+
+
+</head>
+
+<body>
+
+  <div class="preloader" data-preloader>
+    <div class="circle"></div>
+  </div>
+
+
+  <header class="header" data-header>
+    <div class="container">
+
+      <a href="#" class="logo">
+        <img src="./assets/images/@mbrzz.png" width="65" height="40" alt="@mbrzz01">
+      </a>
+
+      <button class="nav-toggle-btn" data-nav-toggler data-nav-toggle-btn aria-label="Toggle menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#" class="navbar-link">Início</a>
+          </li>
+
+          <li>
+            <a href="#knowledge" class="navbar-link">Habilidades</a>
+          </li>
+
+          <li>
+            <a href="#skills" class="navbar-link">Conhecimentos</a>
+          </li>
+
+          <li>
+            <a href="#portfolio-label" class="navbar-link">Portfólio</a>
+          </li>
+
+          <li>
+            <a href="#articles" class="navbar-link">Artigos</a>
+          </li>
+
+          <li>
+            <a href="#contact" class="navbar-link">Contato</a>
+          </li>
+
+        </ul>
+      </nav>
+
+      <div class="overlay" data-nav-toggler data-overlay></div>
+
+    </div>
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero" aria-label="home">
+        <div class="container">
+
+          <div class="hero-content">
+
+            <h1 class="h1 hero-title">Miguel Braz</h1>
+
+            <p class="hero-subtitle">
+              Web Designer | Desenv. Front-end | Social Media
+            </p>
+
+            <div class="hero-banner">
+              <img src="./assets/images/hero-banner.png" width="800" height="800" alt="miguel braz" class="w-100">
+            </div>
+
+            <p class="section-text">
+              Olá, muito prazer! Sou um profissional e estudante constantemente ambicioso por aprimorar minha criatividade.
+              Baixe meu currículo no botão abaixo.
+            </p>
+
+            <a href="assets/images/Currículo - Miguel Braz.pdf" download class="btn has-before">
+              <span class="span">Clique aqui</span>
+
+              <ion-icon name="download-outline" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="service" id="knowledge" aria-labelledby="service-label">
+        <div class="container">
+
+          <div class="title-wrapper">
+
+            <div>
+              <p class="section-subtitle">
+                - 1 -
+              </p>
+
+              <h2 class="h2 section-title" id="service-label">Habilidades</h2>
+            </div>
+
+            <p class="section-text">
+              Sou apaixonado por criar experiências visuais e funcionais que impactam positivamente os usuários.
+              Combino criatividade e estratégia para desenvolver soluções inovadoras e eficazes.
+            </p>
+
+          </div>
+
+          <div class="slider" data-slider>
+
+            <ul class="slider-container service-list" data-slider-container>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Design Web</h3>
+
+                  <p class="card-text"><span>
+                    Criação e manutenção de sites focando na aparência, layout e funcionalidade, garantindo uma navegação fácil e visual atraente em todos os dispositivos.
+                  </span></p>
+
+                  <span class="text-lg card-number">01</span>
+
+                  <a href="#knowledge" class="layer-link"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="desktop-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Design Gráfico</h3>
+
+                  <p class="card-text">
+                    Combinação de texto e imagens para comunicar mensagens de forma eficaz, incluindo a criação de logotipos, banners e materiais promocionais que refletem a identidade visual da marca.
+                  </p>
+
+                  <span class="text-lg card-number">02</span>
+
+                  <a href="#knowledge" class="layer-link"></a>
+
+                </div>
+              </li>
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="chatbubbles-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Social Media</h3>
+
+                  <p class="card-text">
+                    Desenvolvimento de estratégias para plataformas sociais, criando conteúdo relevante e interativo, analisando métricas e mantendo a marca conectada com o público.
+                  </p>
+
+                  <span class="text-lg card-number">03</span>
+
+                  <a href="#knowledge" class="layer-link"></a>
+
+                </div>
+              </li>
+
+              <!-- <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="color-filter-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Graphic Design</h3>
+
+                  <p class="card-text">
+                    Creation of visual communication projects, logos, formatting any type of visual material 
+                    such as flyers, banners, social media posts, etc.
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#knowledge" class="layer-link"></a>
+
+                </div>
+              </li> -->
+
+              <li class="slider-item" data-slider-item>
+                <div class="service-card">
+
+                  <div class="card-icon">
+                    <ion-icon name="podium-outline"></ion-icon>
+                  </div>
+
+                  <h3 class="h3 card-title">Análise UX</h3>
+
+                  <p class="card-text">
+                    Entendimento e melhoria da interação dos usuários com produtos digitais através de pesquisa, testes de usabilidade e feedback, garantindo uma experiência intuitiva e satisfatória.
+                  </p>
+
+                  <span class="text-lg card-number">04</span>
+
+                  <a href="#knowledge" class="layer-link"></a>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <div class="slider-controls">
+              <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+
+              <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                <div class="line"></div>
+                <div class="arrow"></div>
+              </button>
+            </div>
+
+          </div>
+
+        </div>
+      </section>
+
+
+      <!-- 
+        - #SKILLS
+      -->
+
+      <section class="section skills" aria-label="our skills" id="skills">
+        <div class="container">
+
+          <p class="section-subtitle">- 2 -</p>
+
+          <h2 class="h2 section-title">Meus conhecimentos</h2>
+
+          <div class="skills-wrapper">
+
+            <div>
+              <p class="section-text">
+                Ao longo da minha jornada, absorvi uma série de conhecimentos e experiências que me permitem criar soluções digitais únicas e intuitivas. Busco sempre entender as necessidades e expectativas de cada projeto.<br><br>Apresento um resumo das principais competências que aplico em meus projetos, combinando criatividade, técnica e estratégia para entregar resultados de excelência.
+                <br><br>
+              </p>
+
+              <!-- <p class="section-text">
+                Cada competência é aplicada para garantir que os resultados sejam sempre excepcionais e atendam às necessidades dos usuários.
+              </p> -->
+
+              <!-- <a href="https://www.instagram.com/miguelbrzzz/" class="btn has-before">@miguelbrzzz<ion-icon name="arrow-forward"></ion-icon></a> -->
+            </div>
+
+            <div>
+
+              <ul class="skills-list">
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Web Design</p>
+
+                    <data class="progress-value" value="93">93%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 92%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Design Gráfico</p>
+
+                    <data class="progress-value" value="92">92%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 92%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">UX & UI Design</p>
+
+                    <data class="progress-value" value="90">90%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 88%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Social Media</p>
+
+                    <data class="progress-value" value="82">88%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 82%;"></div>
+                  </div>
+                </li>
+
+                <li>
+                  <div class="progress-wrapper">
+                    <p class="progress-label">Programação Front-end</p>
+
+                    <data class="progress-value" value="85">85%</data>
+                  </div>
+
+                  <div class="progress-bg">
+                    <div class="progress" style="width: 85%;"></div>
+                  </div>
+                </li>
+
+              </ul>
+
+            </div>
+
+          </div>
+
+          <!-- <section class="portfolio" id="portfolio" aria-labelledby="portfolio-label">
+
+            <div class="slider" data-slider>
+    
+              <ul class="slider-container" data-slider-container>
+    
+                <li class="slider-item">
+                  <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+    
+                    <img src="./assets/images/service-1.png" width="600" height="600" loading="lazy" alt="portfolio"
+                      class="img-cover">
+    
+                    <div class="card-content">
+                      <h3 class="h3 card-title">Download the plans</h3>
+  
+                      <p class="card-text">PDF</p>
+                    </div>
+                    <a href="assets/images/Packs - Social Media.pdf" download class="layer-link"></a>
+    
+                  </div>
+                </li>
+    
+                <li class="slider-item">
+                  <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+    
+                    <img src="./assets/images/service-2.png" width="600" height="600" loading="lazy" alt="portfolio"
+                      class="img-cover">
+    
+                    <div class="card-content">
+                      <h3 class="h3 card-title">Download the plans</h3>
+      
+                      <p class="card-text">PDF</p>
+
+                      <h3 class="h3 card-title">Coming soon...</h3>
+                      
+                    </div>
+    
+                    <a href="assets/images/Packs - Landing Page.pdf" download class="layer-link"></a>
+    
+                  </div>
+                </li>
+    
+                <li class="slider-item">
+                  <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+    
+                    <img src="./assets/images/service-3.png" width="600" height="600" loading="lazy" alt="portfolio"
+                      class="img-cover">
+    
+                    <div class="card-content">
+                      <h3 class="h3 card-title">Download the plans</h3>
+      
+                      <p class="card-text">PDF</p>
+
+                      <h3 class="h3 card-title">Coming soon...</h3>
+                    </div>
+    
+                    <a href="#" download class="layer-link"></a>
+    
+                  </div>
+                </li>
+
+                <li class="slider-item">
+                  <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+    
+                    <img src="./assets/images/service-4.png" width="600" height="600" loading="lazy" alt="portfolio"
+                      class="img-cover">
+    
+                    <div class="card-content">
+                      <h3 class="h3 card-title">Download the plans</h3>
+      
+                      <p class="card-text">PDF</p>
+
+                      <h3 class="h3 card-title">Coming soon...</h3>
+                    </div>
+    
+                    <a href="#" download class="layer-link"></a>
+    
+                  </div>
+                </li>
+
+                <li class="slider-item">
+                  <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+    
+                    <img src="./assets/images/service-5.png" width="600" height="600" loading="lazy" alt="portfolio"
+                      class="img-cover">
+    
+                    <div class="card-content">
+                      <h3 class="h3 card-title">Click here</h3>
+      
+                      <p class="card-text">@miguelbrazz2 | Business Card</p>
+
+                      <h3 class="h3 card-title">Coming soon...</h3>
+                    </div>
+    
+                    <a href="#" download class="layer-link"></a>
+    
+                  </div>
+                </li>
+    
+              </ul>
+    
+              <div class="slider-controls">
+                <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+                  <div class="line"></div>
+                  <div class="arrow"></div>
+                </button>
+    
+                <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+                  <div class="line"></div>
+                  <div class="arrow"></div>
+                </button>
+              </div>
+    
+            </div>
+    
+          </section> -->
+
+        </div>
+
+      </section>
+
+      
+
+      <!-- 
+        - #PORTFOLIO
+      -->
+
+      <section class="portfolio" id="portfolio" aria-labelledby="portfolio-label">
+
+        <div class="title-wrapper container">
+
+          <div>
+            <p class="section-subtitle" id="portfolio-label">- 3 -</p>
+
+            <h2 class="h2 section-title">Portfólio</h2>
+          </div>
+
+          <p class="section-text">
+            Abaixo, alguns dos meus trabalhos como Web designer, Social Media e desenvolvedor! Realizados durante minha experiência acadêmica e profissional.
+          </p>
+
+        </div>
+
+        <div class="slider" data-slider>
+
+          <ul class="slider-container" data-slider-container>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-1.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Clique aqui</h3>
+
+                  <p class="card-text">para ser direcionado</p>
+                </div>
+
+                <a href="https://www.instagram.com/mbrzz01" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-2.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Clique aqui</h3>
+
+                  <p class="card-text">para ser direcionado</p>
+                </div>
+
+                <a href="https://miguelbrazz.github.io/MyProjects/" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-3.PNG" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Clique aqui</h3>
+
+                  <p class="card-text">para ser direcionado</p>
+                </div>
+
+                <a href="https://www.linkedin.com/in/miguelfbraz/" class="layer-link"></a>
+
+              </div>
+            </li>
+
+            <li class="slider-item">
+              <div class="portfolio-card img-holder" style="--width: 600; --height: 600;">
+
+                <img src="./assets/images/portfolio-4.png" width="600" height="600" loading="lazy" alt="portfolio"
+                  class="img-cover">
+
+                <div class="card-content">
+                  <h3 class="h3 card-title">Clique aqui</h3>
+
+                  <p class="card-text">para ser direcionado</p>
+                </div>
+
+                <a href="https://www.behance.net/miguelbraz" class="layer-link"></a>
+
+              </div>
+            </li>
+
+          </ul>
+
+          <div class="slider-controls">
+            <button class="slider-control prev" data-slider-prev aria-label="Slide to previous item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+
+            <button class="slider-control next" data-slider-next aria-label="Slide to next item">
+              <div class="line"></div>
+              <div class="arrow"></div>
+            </button>
+          </div>
+
+        </div>
+
+      </section>
+
+      
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="articles" aria-labelledby="blog-label">
+        <div class="container">
+
+          <p class="section-subtitle" id="blog-label">- 4 -</p>
+
+          <h2 class="h2 section-title">Artigos</h2>
+
+          <ul class="blog-list">
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                  <img src="./assets/images/blog_1.png" width="700" height="470" loading="lazy"
+                    alt="Desvendando a magia por trás das telas: Uma jornada entre a mente e a tecnologia." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2022-06-24">
+                    <span class="span text-lg">19 </span>
+                    02 2024
+                  </time>
+
+                  <div>
+                    <h3 class="h3 card-title">Psicologia + UX/UI Design</h3>
+
+                    <p class="card-text">
+                      "Desvendando a magia por trás das telas: Uma jornada entre a mente e a tecnologia."<br>
+                      - Ton.
+                    </p>
+
+                    <a href="https://medium.com/@elitonrodrigo/psicologia-ux-ui-design-a-revolu%C3%A7%C3%A3o-silenciosa-que-transforma-o-mundo-digital-85fdc4ee950c" class="btn has-before">
+                      <span class="span">Leia mais</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                  <img src="./assets/images/blog_2.png" width="700" height="470" loading="lazy"
+                    alt="Entenda as características e diferenças de 3 dos campos principais no Design." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2023-02-11">
+                    <span class="span text-lg">23</span>
+                    03 2020
+                  </time>
+
+                  <div>
+                    <h3 class="h3 card-title">Design gráfico, UI Design & Web Design</h3>
+
+                    <p class="card-text">
+                      "Entenda as características e diferenças de 3 dos campos principais no Design." <br>- Tera.
+                    </p>
+
+                    <a href="https://medium.com/somos-tera/diferencas-design-grafico-ui-design-design-visual-9d4f53d6c65f" class="btn has-before">
+                      <span class="span">Leia mais</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="blog-card">
+
+                <figure class="card-banner img-holder" style="--width: 700; --height: 470;">
+                  <img src="./assets/images/blog_3.png" width="700" height="470" loading="lazy"
+                    alt="Graphic design is the art of visual communication and problem-solving through the use of typography, imagery, and space." class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <time class="time" datetime="2023-02-11">
+                    <span class="span text-lg">06</span>
+                    08 2020
+                  </time>
+
+                  <div>
+                    <h3 class="h3 card-title">A importância do UX em novos negócios</h3>
+
+                    <p class="card-text">
+                      "O conceito de UX e por que ele é extremamente importante para o futuro dos negócios, na criação de novos produtos e na comunicação da marca."<br>- Tera.
+                    </p>
+
+                    <a href="https://medium.com/somos-tera/a-importancia-do-ux-design-nos-novos-negocios-83ab8388a9da" class="btn has-before">
+                      <span class="span">Leia mais</span>
+
+                      <ion-icon name="arrow-forward"></ion-icon>
+                    </a>
+                  </div>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="contact">
+    <div class="container">
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Entre em contato</p>
+        </li>
+
+        <li>
+          <a href="mailto:miguelbraz@live.com" class="footer-link">miguelbraz@live.com</a>
+        </li>
+
+      </ul>
+
+      <ul class="footer-list">
+
+        <li>
+          <p class="h4 footer-list-title">Localização</p>
+        </li>
+
+        <li>
+          <a href="https://goo.gl/maps/9MzEVsPFd8bFbHxB9" class="footer-link">Porto Alegre — Brasil</a>
+        </li>
+
+      </ul>
+
+      <ul class="social-list">
+
+        <li>
+          <a href="https://github.com/miguelbrazz" class="social-link">
+            <ion-icon name="logo-github"></ion-icon>
+          </a>
+        </li>
+
+        <li>
+          <a href="https://open.spotify.com/user/miguelbraz136?si=d64dd5a2b5754a43" class="social-link">
+            <ion-icon name="headset-outline"></ion-icon>
+          </a>
+        </li>
+
+        <!-- <li>
+          <a href="https://open.spotify.com/user/miguelbraz136?si=fa08ddf2ca6440e1" class="social-link">
+            <ion-icon name="musical-notes-outline"></ion-icon>
+          </a>
+        </li> -->
+
+        <li>
+          <a href="#" class="social-link">
+            <ion-icon name="chevron-up-outline"></ion-icon>
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
