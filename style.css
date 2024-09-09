@@ -57,11 +57,11 @@ button,
 ion-icon { display: block; }
 
 .logo img {
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .logo img:hover {
-  transition: 0.4s;
+  transition: 0.3s;
   transform: scale(1.08);
 }
 
@@ -466,7 +466,7 @@ body.nav-active { overflow: hidden; }
 .hero-banner {
   border-radius: var(--blob-radius);
   overflow: hidden;
-  animation: blobAnim 35s linear infinite;
+  animation: blobAnim 34s linear infinite;
 }
 
 @keyframes blobAnim {
@@ -494,7 +494,12 @@ body.nav-active { overflow: hidden; }
 
 }
 
-.hero .section-text { margin-block: 30px; }
+.hero .section-text { 
+  
+  margin-block: 30px; 
+  font-weight: 500;
+  font-size: 1.62rem;
+}
 
 .hero .btn { margin-inline: auto; }
 
@@ -508,10 +513,10 @@ body.nav-active { overflow: hidden; }
 
 .service-card {
   position: relative;
-  background-image: url(/assets/images/background-white.png);
+  background-color: #E9E8E4;
   height: 100%;
   padding: 60px 40px 40px;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 .service-card .card-icon ion-icon {
@@ -539,10 +544,10 @@ body.nav-active { overflow: hidden; }
 }
 
 .service-card:is(:hover, :focus-within) {
-  background-image: url(/assets/images/background-gradient.png);
-  background-color: var(--content-color);
+  background-color: rgba(78,92,187,1);
   --content-color: var(--white);
-  transition: 0.5s;
+  transition: 0.4s;
+  cursor:pointer;
 }
 
 
@@ -963,6 +968,49 @@ body.nav-active { overflow: hidden; }
 
 }
 
+@media screen and (max-width: 1199px) {
+
+  .hero {
+    padding-block-start: 165px;
+    padding-block-end: 200px;
+  }
+  
+  .hero-title {
+    font-size: 7.5rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 991px) {
+
+  .hero-title {
+    font-size: 5.6rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .hero-title {
+    font-size: 8.8rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.6rem;
+  }
+
+  .hero {
+    padding-block-start: 162px;
+  }
+
+
+}
+
 
 
 
@@ -976,6 +1024,7 @@ body.nav-active { overflow: hidden; }
   /**
    * CUSTOM PROPERTY
    */
+   
 
   :root {
 
