@@ -547,7 +547,6 @@ body.nav-active { overflow: hidden; }
   background-color: rgba(78,92,187,1);
   --content-color: var(--white);
   transition: 0.4s;
-  cursor:pointer;
 }
 
 
