@@ -446,7 +446,7 @@ body.nav-active { overflow: hidden; }
 
 .hero {
   padding-block-start: 200px;
-  padding-block-end: 200px;
+  padding-block-end: 360px;
 }
 
 .hero-title {
@@ -1031,7 +1031,7 @@ body.nav-active { overflow: hidden; }
      * spacing
      */
 
-    --section-padding: 180px;
+    --section-padding: 280px;
 
   }
 
