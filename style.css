@@ -532,7 +532,7 @@ body.nav-active { overflow: hidden; }
 .service-card .card-text { color: var(--content-color, #363636); }
 
 .service-card .card-number {
-  margin-inline-start: auto;
+  margin-inline-start: left;
   font-weight: var(--fw-800);
   line-height: 0.6;
   max-width: max-content;
@@ -1031,7 +1031,7 @@ body.nav-active { overflow: hidden; }
      * spacing
      */
 
-    --section-padding: 340px;
+    --section-padding: 280px;
 
   }
 
